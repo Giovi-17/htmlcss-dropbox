@@ -25,10 +25,22 @@ img{
     width: 100%;
 }
 
+/* container */
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.container-small{
+    width: 70%;
+    margin: auto;
+}
+
 /* buttons */
 .btn{
     display: inline-block;
     line-height: normal;
+    text-decoration: none;
 }
 
 .btn-small{
@@ -73,3 +85,40 @@ header img{
 }
 
 /* MAIN */
+main{
+    padding-top: 70px; 
+    background-color: #b4d0e7;
+}
+
+.main-container{
+    margin-top: 40px;
+}
+
+.main-col-sx{
+    padding-right: 100px;
+    width: 40%;
+}
+
+.main-col-dx{
+    width: 60%;
+    position: relative;
+    top: 70px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+main a{
+    margin: 30px 0 10px 0;
+}
+
+main span{
+    display: block;
+}
+
+main i{
+    margin-top: 60px;
+    display: block;
+    font-size: 50px;
+}
