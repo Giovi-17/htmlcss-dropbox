@@ -8,3 +8,64 @@
 body{
     font-family: 'Open Sans',sans-serif;
 }
+
+/* COMMON */
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+/* buttons */
+.btn{
+    display: inline-block;
+    line-height: normal;
+}
+
+.btn-small{
+    padding: 10px 20px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+/* HEADER */
+header{
+    display: fixed;
+    height: 100px;  
+}
+.header-total{
+    height: 100%;
+    line-height: 100px;
+}
+
+header li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+.header-right{
+    float: right;
+}
+
+/* MAIN */
