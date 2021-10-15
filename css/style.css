@@ -25,6 +25,41 @@ img{
     width: 100%;
 }
 
+/* span and general */
+.text-blue{
+    color: #0061ff;
+    text-decoration: underline;
+    text-decoration-color: #0061ff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.span-color-gray{
+    color: gray;
+    margin-bottom: 50px;
+}
+.span-space{
+    margin: 20px 0;
+}
+
+.size-title{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.line-gray{
+    border-bottom: 1px solid lightgray;
+    height: 20px;
+    width: 10%;
+}
+
+.inline-block-div{
+    display: inline-block;
+}
+
+
 /* container */
 .container{
     width: 85%;
@@ -47,15 +82,34 @@ img{
     padding: 10px 20px;
 }
 
+.btn-big{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
 .btn-blue{
     background-color: #0061ff;
     color: white;
 }
 
+.btn-blue:hover{
+    filter: opacity(0.7);
+}
+
+/* border */
+.border{
+    border: 1px solid lightgray;
+}
+
 /* HEADER */
 header{
-    display: fixed;
-    height: 100px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px; 
+    width: 100%; 
+    background-color: white;
 }
 .header-total{
     height: 100%;
@@ -85,8 +139,9 @@ header img{
 }
 
 /* MAIN */
-main{
-    padding-top: 70px; 
+/* background-blue */
+.background-blue{
+    padding-top: 200px; 
     background-color: #b4d0e7;
 }
 
@@ -95,6 +150,7 @@ main{
 }
 
 .main-col-sx{
+    margin-top: 80px;
     padding-right: 100px;
     width: 40%;
 }
@@ -109,16 +165,123 @@ h1{
     font-size: 80px;
 }
 
-main a{
+.background-blue a{
     margin: 30px 0 10px 0;
 }
 
-main span{
+.background-blue span{
     display: block;
 }
 
-main i{
+.background-blue i{
     margin-top: 60px;
     display: block;
     font-size: 50px;
 }
+
+/* container-small */
+.plan-professional{
+    width: calc( (100% / 3) - 60px);
+}
+
+.plan-professional-central{
+    margin: 0 90px;
+}
+
+
+.plan-section{
+    padding-top: 150px;
+}
+
+.plan-section h2{
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.round{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.round:hover{
+    cursor: pointer;
+}
+
+.tipo-fatturazione{
+    margin: 40px 0;
+}
+
+.tipo-fatturazione span{
+    margin-right: 20px;
+}
+
+.tipo-fatturazione div{
+    line-height: 20px;
+}
+
+.round-blue{
+    border: 5px solid #0061ff;
+}
+
+.round-white{
+    border: 1px solid lightgray;
+}
+
+.plan-professional-top{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.plan-professional-bottom{
+    padding: 35px 25px;
+}
+
+.plan-professional-bottom h3, .padding-enterprice h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-professional-bottom span, .padding-enterprice span{
+    display: block;
+}
+
+.plan-professional-bottom a{
+    margin: 30px 0 20px 0;
+}
+
+.plan-professional-bottom li i{
+    color: #0061ff;
+}
+
+.plan-professional-bottom ul{
+    list-style-type: none;
+}
+
+.plan-professional-bottom li{
+    margin-bottom: 30px;
+}
+
+.plan-professional-bottom-bottom{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.plan-professional-bottom p, .padding-enterprice p{
+    margin-top: 35px;
+}
+
+.enterprise-sx{
+    width: 70%;
+}
+
+.enterprise-dx{
+    width: 30%;
+}
+
+.padding-enterprice{
+    padding: 35px 25px;
+}
+
