@@ -50,9 +50,9 @@ img{
 }
 
 .line-gray{
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
     height: 20px;
-    width: 10%;
+    width: 20%;
 }
 
 .inline-block-div{
@@ -199,7 +199,7 @@ h1{
     padding-top: 150px;
 }
 
-.plan-section h2{
+h2{
     font-size: 40px;
     margin: 40px 0;
 }
@@ -275,7 +275,7 @@ h1{
     margin: 50px 0;
 }
 
-.plan-professional-bottom p, .padding-enterprice p{
+.plan-professional-bottom p, .padding-enterprice p, .image-text-par p{
     margin-top: 35px;
 }
 
@@ -304,7 +304,7 @@ h1{
     padding: 40px 30px;
 }
 
-.text h3{
+.text h3, .image-text-par h3{
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -312,3 +312,25 @@ h1{
 .text a{
     margin: 30px 0;
 }
+
+.col-info{
+    width: calc( ( 100% / 3 ) - 40px );
+}
+
+.image-text-par-central{
+    margin: 0 60px;
+}
+
+.space{
+    margin-bottom: 140px;
+}
+
+/* pre-footer */
+.pre-footer{
+    width: 50%;
+}
+
+.pre-footer p{
+
+}
+
