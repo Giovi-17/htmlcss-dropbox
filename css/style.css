@@ -15,6 +15,10 @@ body{
     float: left;
 }
 
+.col-r{
+    float: right;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -328,9 +332,63 @@ h2{
 /* pre-footer */
 .pre-footer{
     width: 50%;
+    margin-bottom: 40px;
 }
 
-.pre-footer p{
-
+/* FOOTER */
+.back-blue{
+    background-color: #b4d0e7;
 }
+
+.prova-gratuita-footer{
+    padding: 100px 0;
+}
+
+.prova-gratuita-footer-sx{
+    width: 65%;
+    padding-right: 100px;
+}
+
+.prova-gratuita-footer-dx{
+    width: 35%;
+}
+
+.prova-gratuita-footer-sx h3{
+    color: #630d30;
+    font-size: 30px;
+}
+
+.domande{
+    margin-bottom: 150px;
+}
+
+.domande h3{
+    font-size: 30px;
+    margin: 150px 0 100px 0;
+}
+
+.border-bottom-footer{
+    border-bottom: 1px solid lightgray;
+}
+
+.bold-footer{
+    font-weight: bold;
+}
+
+.space-footer{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.arrow-down-footer{
+    margin-right: 40px;
+}
+
+.border-bottom-footer:hover .arrow-down-footer span i{
+    transition: transform 1s;
+    transform: rotate(180deg);
+}
+
+
+
 
