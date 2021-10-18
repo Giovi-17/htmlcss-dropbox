@@ -297,6 +297,14 @@ h2{
     width: 30%;
 }
 
+.icon{
+    margin-left: -20px;
+}
+
+.plan-professional-bottom ul, .spazio-per-icona {
+    margin-left: 20px;
+}
+
 .padding-enterprice{
     padding: 35px 25px;
 }
