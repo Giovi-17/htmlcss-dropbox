@@ -173,6 +173,7 @@ header img{
     width: 60%;
     position: relative;
     top: 70px;
+    left: 0;
 }
 
 h1{
@@ -253,7 +254,7 @@ h2{
 
 .plan-professional-bottom{
     padding: 35px 25px;
-    height: 1050px;
+    min-height: 1050px;
 }
 
 .plan-professional-bottom h3, .padding-enterprice h3{
