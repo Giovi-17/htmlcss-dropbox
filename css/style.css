@@ -121,22 +121,20 @@ header{
     height: 100px; 
     width: 100%; 
     background-color: white;
+    z-index: 1;
 }
 .header-total{
     height: 100%;
-    line-height: 100px;
+    line-height: 97px;
 }
 
 header li{
     display: inline-block;
-    padding: 0 20px;
+    margin: 0 20px;
 }
 
 .border-bottom:hover{
     border-bottom: 3px solid black;
-    position: relative;
-    bottom: 3px;
-    right: 0;
 }
 
 header a{
